@@ -1,0 +1,11 @@
+# CloudFormationTemplateVersion
+# Description
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Cloudformation template number 2 for S3 Bucket'
+Resources: 
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'dehan-s3-bucket-yaml'
+      
