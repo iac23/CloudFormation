@@ -1,0 +1,10 @@
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform-provider-*
+.terraform.lock.hcl
+
+# Other
+*.log
+*.bak
